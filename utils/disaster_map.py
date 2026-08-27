@@ -614,7 +614,7 @@ def create_disaster_spatial_map(
                         "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
                     ],
                     below="traces",
-                    opacity=1
+                    opacity=0.1
                 )
             ],
             zoom=map_view["zoom"],
