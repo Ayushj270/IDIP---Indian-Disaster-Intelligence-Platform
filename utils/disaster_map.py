@@ -611,7 +611,7 @@ def create_disaster_spatial_map(
                 dict(
                     sourcetype="raster",
                     source=[
-                        "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+                        "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
                     ],
                     below="traces",
                     opacity=1
