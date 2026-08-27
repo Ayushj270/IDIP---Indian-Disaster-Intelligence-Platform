@@ -614,7 +614,7 @@ def create_disaster_spatial_map(
                         "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png"
                     ],
                     below="traces",
-                    opacity=0.9
+                    opacity=1
                 ),
 
                 # Light street information overlay
