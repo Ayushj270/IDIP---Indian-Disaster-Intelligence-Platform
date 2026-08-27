@@ -194,7 +194,6 @@ if current_selected_state:
         if st.button(
 
             f"Explore {current_selected_state} →",
-            width="stretch",
             type="primary"
 
         ):
