@@ -622,7 +622,7 @@ def create_disaster_spatial_map(
                         "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                     ],
                     below="traces",
-                    opacity=1
+                    opacity=0.3
                 )
             ],
             zoom=map_view["zoom"],
