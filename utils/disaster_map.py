@@ -618,14 +618,6 @@ def create_disaster_spatial_map(
                 ),
 
                 # Street highlight layer
-                dict(
-                    sourcetype="raster",
-                    source=[
-                        "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png"
-                    ],
-                    below="traces",
-                    opacity=0.10
-                )
             ],
             zoom=map_view["zoom"],
             center=dict(
