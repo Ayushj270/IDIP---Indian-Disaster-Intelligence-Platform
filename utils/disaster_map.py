@@ -607,7 +607,6 @@ def create_disaster_spatial_map(
         dragmode=False,
         mapbox=dict(
             layers=[
-                # Dark base map
                 dict(
                     sourcetype="raster",
                     source=[
@@ -617,14 +616,13 @@ def create_disaster_spatial_map(
                     opacity=1
                 ),
 
-                # Subtle road + street label enhancement
                 dict(
                     sourcetype="raster",
                     source=[
-                        "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png"
+                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
                     ],
                     below="traces",
-                    opacity=0.10
+                    opacity=0.08
                 )
             ],
             zoom=map_view["zoom"],
