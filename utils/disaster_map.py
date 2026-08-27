@@ -606,7 +606,7 @@ def create_disaster_spatial_map(
         showlegend=False,
         dragmode=False,
         mapbox=dict(
-            style="carto-darkmatter",
+            # style="carto-darkmatter",
             layers=[
                 dict(
                     sourcetype="raster",
