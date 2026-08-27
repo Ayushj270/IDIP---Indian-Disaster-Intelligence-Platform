@@ -617,7 +617,15 @@ def create_disaster_spatial_map(
                     opacity=1
                 ),
 
-                # Street highlight layer
+                # Light street information overlay
+                dict(
+                    sourcetype="raster",
+                    source=[
+                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    ],
+                    below="traces",
+                    opacity=0.15
+                )
             ],
             zoom=map_view["zoom"],
             center=dict(
