@@ -606,7 +606,7 @@ def create_disaster_spatial_map(
         showlegend=False,
         dragmode=False,
         mapbox=dict(
-            style = "white-bg",
+            style="white-bg",
             layers=[
                 dict(
                     sourcetype="raster",
@@ -617,7 +617,6 @@ def create_disaster_spatial_map(
                     opacity=1
                 )
             ],
-            style="white-bg",
             zoom=map_view["zoom"],
             center=dict(
                 lat=map_view["center"]["lat"],
