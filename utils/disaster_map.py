@@ -615,6 +615,14 @@ def create_disaster_spatial_map(
                     ],
                     below="traces",
                     opacity=1
+                ),
+                dict(
+                    sourcetype="raster",
+                    source=[
+                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    ],
+                    below="traces",
+                    opacity=0.05
                 )
             ],
             zoom=map_view["zoom"],
