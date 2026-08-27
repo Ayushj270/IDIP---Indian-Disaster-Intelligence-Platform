@@ -3,6 +3,14 @@
 # ============================================================
 
 import streamlit as st
+
+st.set_page_config(
+    page_title="IDIP",
+    page_icon="🌍",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
 from utils.data_loader import load_idip_data
 from utils.state_page import (
     show_state_intelligence_page
@@ -20,13 +28,6 @@ from utils.graph_intelligence import (
 # ============================================================
 # 27.02 — PAGE CONFIGURATION
 # ============================================================
-
-st.set_page_config(
-    page_title="IDIP",
-    page_icon="🌍",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-)
 
 # ============================================================
 # 27.03 — LOAD DATA

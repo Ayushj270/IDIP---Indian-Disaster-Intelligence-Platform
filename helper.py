@@ -9,17 +9,6 @@ import plotly.graph_objects as go
 
 from pathlib import Path
 
-
-# ============================================================
-# 27.17.01 — PAGE CONFIGURATION
-# ============================================================
-
-st.set_page_config(
-    page_title="India Map Accuracy Test",
-    layout="wide"
-)
-
-
 # ============================================================
 # 27.17.02 — PROJECT PATHS
 # ============================================================
