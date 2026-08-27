@@ -423,7 +423,6 @@ def show_state_intelligence_page(
     with btn1:
         if st.button(
             "← Analysis",
-            width="stretch",
             key="analysis_button"
         ):
             st.session_state["state_view"] = "analysis"
@@ -431,7 +430,6 @@ def show_state_intelligence_page(
     with btn2:
         if st.button(
             "Graphs →",
-            width="stretch",
             key="graph_button"
         ):
             st.session_state["state_view"] = "graphs"
@@ -687,7 +685,6 @@ def show_state_intelligence_page(
     with center:
         if st.button(
             "← Back to India Map",
-            width="stretch",
             key="back_home"
         ):
             st.session_state["page"] = "home"
