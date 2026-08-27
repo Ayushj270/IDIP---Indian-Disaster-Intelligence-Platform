@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+geopandas
+shapely
+pyproj
+plotly
+requests
+python-dotenv
+scikit-learn
+
+python -m streamlit run app.py
