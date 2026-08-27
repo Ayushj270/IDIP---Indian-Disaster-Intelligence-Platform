@@ -1,0 +1,4 @@
+disaster,severity_metric,valid_records,mean,median,maximum
+Earthquake,Magnitude,7690,4.488075422626788,4.4,7.7
+Flood,Duration (days),5855,3.0250142328494167,1.0,365.0
+Cyclone,Wind Speed (knots),82,62.03658536585366,56.5,127.0

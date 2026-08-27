@@ -1,0 +1,37 @@
+state_name,earthquake_events,flood_events,cyclone_events,total_events
+Andaman and Nicobar Islands,3210,3,32,3245
+Assam,435,848,0,1283
+Maharashtra,19,847,4,870
+Kerala,0,532,0,532
+Arunachal Pradesh,313,140,0,453
+Himachal Pradesh,103,337,0,440
+Karnataka,6,421,1,428
+Uttar Pradesh,14,404,0,418
+Jammu and Kashmir,206,184,0,390
+Gujarat,176,122,23,321
+West Bengal,16,271,25,312
+Rajasthan,14,232,0,246
+Uttarakhand,122,105,0,227
+Madhya Pradesh,10,194,0,204
+Tamil Nadu,1,149,28,178
+Ladakh,168,1,0,169
+Nagaland,134,17,0,151
+Telangana,1,147,0,148
+Andhra Pradesh,5,115,25,145
+Odisha,8,110,26,144
+Mizoram,90,27,16,133
+Punjab,3,129,0,132
+Bihar,6,107,0,113
+Sikkim,52,60,0,112
+Manipur,92,16,0,108
+Haryana,26,73,0,99
+Meghalaya,44,54,0,98
+Chhattisgarh,9,66,0,75
+Tripura,20,34,6,60
+Jharkhand,7,38,1,46
+Delhi,6,25,0,31
+Goa,0,30,0,30
+Lakshadweep,1,0,8,9
+Puducherry,0,4,0,4
+Dadra and Nagar Haveli and Daman and Diu,1,2,0,3
+Chandigarh,0,2,0,2

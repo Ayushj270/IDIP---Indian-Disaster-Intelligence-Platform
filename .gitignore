@@ -25,10 +25,18 @@ Thumbs.db
 *.tmp
 *.log
 
-# Data files (keep structure, not heavy data)
+# Ignore all CSV/Excel by default
 *.csv
 *.xlsx
-*.json
+
+# Keep IDIP deployment datasets
+!all data/
+!all data/final_data/
+!all data/final_data/*.csv
+
+# Keep geojson files
+!geojson/
+!geojson/**/*.geojson
 
 # Large files
 *.zip

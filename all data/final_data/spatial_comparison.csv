@@ -1,0 +1,37 @@
+state_name,earthquake_events,flood_events,cyclone_events,dominant_disaster,total_events
+Andaman and Nicobar Islands,3210,3,32,Earthquake,3245
+Assam,435,848,0,Flood,1283
+Maharashtra,19,847,4,Flood,870
+Kerala,0,532,0,Flood,532
+Arunachal Pradesh,313,140,0,Earthquake,453
+Himachal Pradesh,103,337,0,Flood,440
+Karnataka,6,421,1,Flood,428
+Uttar Pradesh,14,404,0,Flood,418
+Jammu and Kashmir,206,184,0,Earthquake,390
+Gujarat,176,122,23,Earthquake,321
+West Bengal,16,271,25,Flood,312
+Rajasthan,14,232,0,Flood,246
+Uttarakhand,122,105,0,Earthquake,227
+Madhya Pradesh,10,194,0,Flood,204
+Tamil Nadu,1,149,28,Flood,178
+Ladakh,168,1,0,Earthquake,169
+Nagaland,134,17,0,Earthquake,151
+Telangana,1,147,0,Flood,148
+Andhra Pradesh,5,115,25,Flood,145
+Odisha,8,110,26,Flood,144
+Mizoram,90,27,16,Earthquake,133
+Punjab,3,129,0,Flood,132
+Bihar,6,107,0,Flood,113
+Sikkim,52,60,0,Flood,112
+Manipur,92,16,0,Earthquake,108
+Haryana,26,73,0,Flood,99
+Meghalaya,44,54,0,Flood,98
+Chhattisgarh,9,66,0,Flood,75
+Tripura,20,34,6,Flood,60
+Jharkhand,7,38,1,Flood,46
+Delhi,6,25,0,Flood,31
+Goa,0,30,0,Flood,30
+Lakshadweep,1,0,8,Cyclone,9
+Puducherry,0,4,0,Flood,4
+Dadra and Nagar Haveli and Daman and Diu,1,2,0,Flood,3
+Chandigarh,0,2,0,Flood,2

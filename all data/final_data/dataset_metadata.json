@@ -1,0 +1,25 @@
+{
+    "project": "IDIP",
+    "purpose": "Validated data handoff from EDA to State Intelligence Engine",
+    "datasets": {
+        "earthquake": {
+            "file": "earthquake_final.csv",
+            "records": 7690,
+            "coordinate_coverage_percent": 100.0
+        },
+        "flood": {
+            "file": "flood_final.csv",
+            "records": 5855,
+            "coordinate_coverage_percent": 0.39
+        },
+        "cyclone": {
+            "file": "cyclone_final.csv",
+            "records": 211,
+            "coordinate_coverage_percent": 100.0
+        },
+        "state_disaster": {
+            "file": "state_disaster_summary.csv",
+            "records": 36
+        }
+    }
+}
