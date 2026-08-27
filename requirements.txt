@@ -1,12 +1,11 @@
 streamlit
 pandas
 numpy
+plotly
 geopandas
 shapely
-pyproj
-plotly
+pyogrio
+fiona
 requests
-python-dotenv
-scikit-learn
-
-python -m streamlit run app.py
+openpyxl
+python-docx
