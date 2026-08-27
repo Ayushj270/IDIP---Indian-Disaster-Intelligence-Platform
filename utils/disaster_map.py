@@ -621,7 +621,7 @@ def create_disaster_spatial_map(
                 dict(
                     sourcetype="raster",
                     source=[
-                        "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+                        "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png"
                     ],
                     below="traces",
                     opacity=0.10
